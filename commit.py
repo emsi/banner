@@ -8,9 +8,6 @@ from tqdm import tqdm
 
 from txt_to_bitmap import text_to_array
 
-# number of commits in given date to be generated
-INTENSITY = 1
-
 app = typer.Typer(add_completion=False)
 
 
